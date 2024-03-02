@@ -1,3 +1,4 @@
+```bash
 # https://www.digitalocean.com/community/tutorials/how-to-set-up-and-configure-an-openvpn-server-on-ubuntu-22-04
 $ sudo su
 $ apt install -y openvpn easy-rsa
@@ -84,4 +85,4 @@ cat ${BASE_CONFIG} \
     > ${OUTPUT_DIR}/${1}.ovpn
 $ chmod +x make_config.sh
 $ ./make_config.sh bat 
- 
+ ```
